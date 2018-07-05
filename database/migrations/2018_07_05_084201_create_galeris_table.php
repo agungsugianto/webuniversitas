@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFakultasTable extends Migration
+class CreateGalerisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,20 +13,20 @@ class CreateFakultasTable extends Migration
      */
     public function up()
     {
-        Schema::create('fakultas', function (Blueprint $table) {
+        Schema::create('galeris', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nama_fakultas');
+            $table->string('poto');
             $table->timestamps();
         });
     }
 
-    /**                                                                                                                                                                
+    /**
      * Reverse the migrations.
      *
      * @return void
      */
     public function down()
     {
-        Schema::dropIfExists('fakultas');
+        Schema::dropIfExists('galeris');
     }
 }

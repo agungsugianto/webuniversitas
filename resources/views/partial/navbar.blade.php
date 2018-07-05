@@ -40,11 +40,11 @@
               <img src="{{asset ('assets/dist/img/user1-128x128.jpg')}}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Brad Diesel
+                  Dheri Firmansyah
                   <span class="float-right text-sm text-danger"><i class="fa fa-star"></i></span>
                 </h3>
-                <p class="text-sm">Call me whenever you can...</p>
-                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm">Woy bangke</p>
+                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i>Kemarin</p>
               </div>
             </div>
             <!-- Message End -->
